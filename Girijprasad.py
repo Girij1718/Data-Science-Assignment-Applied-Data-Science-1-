@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data_path = "C:/Users/girij/Downloads/TSCO_ann (1).csv"
+data_path = "C:/Users/girij/Downloads/TSCO_ann dataset.csv"
 df = pd.read_csv(data_path)
 
 df = df.apply(pd.to_numeric, errors='coerce')
